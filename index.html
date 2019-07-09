@@ -20,6 +20,10 @@
             background-color: #000;
         }
 
+        div {
+            min-height: 200%;
+        }
+
         h1 {
             color: white;
             font-size: 60px;
@@ -78,21 +82,22 @@
             background-color: white;
         }
 
-        .container-fluid {
-
+        #hero{
+            min-height: 200px;
+            text-align: center;
+            vertical-align: central;
         }
+
     </style>
 </head>
 <body>
-    <header>
-        <div class="container-fluid">
-            <h1 class="text-center">Nauman Designs</h1>
-            <h2 class="text-center">Creating experiences that matter</h2>
-            <p class="text-center">
-                Nauman Designs is a Portland based interactive software development firm with seven years building immersive experiences, humanitarian apps, and training simulations.
-            </p>
-        </div>
-    </header>
+    <div class="container-fluid" id="hero">
+        <h1 class="text-center">Nauman Designs</h1>
+        <h2 class="text-center">Creating experiences that matter</h2>
+        <p class="text-center">
+            Nauman Designs is a Portland based interactive software development firm with seven years building immersive experiences, humanitarian apps, and training simulations.
+        </p>
+    </div>
 
     <div class="container-fluid" id="container-white">
         <h2 class="text-center">What we build</h2>
@@ -100,70 +105,82 @@
 
     <div class="container-fluid">
         <h3>TSIM</h3>
-        <h4>GICHD</h4>
+        <h4>The Geneva Centre for Humanitarian Demining</h4>
+        <a href="https://www.gichd.org/">gichd.org</a>
+        <br>
+        <a href="https://mineaction.org/sites/default/files/stanislav_damjanovic.pdf">TSIM Overview</a>
         <p>
-            TSIM, developed for GICHD, is a training simulator that teaches operators proper techniques for de-mining actual war zones. We've work closely with GICHD on this project for over three years and it continues to improve. It has been featured in classroom training in Bosnia, and is currently VR ready.
+            TSIM, developed for GICHD, is a training simulator that teaches handlers optimized techniques for clearing land mines from old war zones.
+            We've worked closely with GICHD on this project for over three years and it continues to grow.
+            It has been featured in classroom training in Bosnia, and supports all major VR HMDs.
         </p>
     </div>
 
     <div class="container-fluid" id="container-white">
         <h3>Ancient Athens Voting Experience</h3>
         <h4>The Children's Museum of Indianapolis</h4>
+        <a href="https://www.childrensmuseum.org/exhibits/ancient-greece">Treasures Of Ancient Greece</a>
         <p>
-            We developed a museum based kiosk experience for the Children's Museum of Indianapolis. The experience teaches users about the ancient Athenian voting system and allows guests to vote on actual issues the Greeks faced thousands of years ago.
+            We developed a museum kiosk experience for the Children's Museum of Indianapolis.
+            Part of the museum's Treasures of Ancient Greece exhibit, 
+            this experience teaches users about the ancient Athenian voting system and allows guests to vote on actual issues the Greeks faced thousands of years ago.
         </p>
     </div>
 
     <div class="container-fluid">
         <h3>NBA on TNT VR</h3>
         <h4>NBA, Intel, Instrument</h4>
+        <a href="https://www.oculus.com/experiences/go/2025498910795441">NBA on TNT VR app on the Oculus GO store</a>
         <p>
-            This application allows users to watch games live in VR with the Oculus GO and GearVR HMDs. 
-            We built multiple pieces of the app, including parts of the front end and the login and syncing for Cable Provider Authentication. 
-            I was primarily responsible for integrating Intel's realtime VR SDK that allows users to view NFL and NBA games in realtime VR.
+            This MobileVR application allows users to watch NBA games live in VR with the Oculus GO and GearVR HMDs.
         </p>
     </div>
 
     <div class="container-fluid" id="container-white">
         <h3>NFL Immersive VR</h3>
         <h4>NFL, Intel, Instrument</h4>
+        <a href="https://www.oculus.com/experiences/go/2176642949027006/">NFL Immersive VR on the Oculus Go store</a>
         <p>
             This MobileVR application allows users to watch NFL games in VR with the Oculus GO and GearVR HMDs.
-            I built multiple pieces of the app, including parts of the front end and the login and syncing for Cable Provider Authentication.
-            I was primarily responsible for integrating Intel's realtime VR SDK that allows users to view NFL and NBA games in realtime VR.
         </p>
     </div>
 
     <div class="container-fluid">
         <h3>Fossil Dig Experience</h3>
         <h4>National Geographic</h4>
+        <a href="https://www.ip2entertainment.com/home/projects/ngux/">ip2 Entertainment</a>
         <p>
-            I worked with National Geographic and IP2X to build a room scale theme park based Dinosaur Fossil Dig experience for two theme parks in China and Mexico. I worked with engineering teams and designers as a sole developer. The attraction features a fossil pit and multiple kiosks where guests can scan RFID bracelets to find and assemble dinosaur fossils. It also allowed for several unique guest achievements.
+            We worked with National Geographic and IP2X to build a room scale theme park based Dinosaur Fossil Dig experience for two theme parks in China and Mexico. The attraction features a fossil pit and multiple kiosks where guests can scan RFID bracelets to find and assemble dinosaur fossils.
         </p>
     </div>
 
     <div class="container-fluid" id="container-white">
         <h3>Lead Developer</h3>
-        <h4>VR Motion</h4>
+        <a href="https://vrmotioncorp.com/">VR Motion</a>
         <p>
-            I led the development of VR enabled room scale based Driver Training Simulators. I was responsible for conceptualizing, coding, and maintaining the simulations experienced in headset. I worked with a variety of companies building simulation scale experiences, including HP, General Motors, Intel, Siggraph, CES, Werner, Trimet, the Salem Oregon police force, The University of Southern California's Project Bravemind, the US Air Force, and Ferrari.
+            We led the development of VR enabled room scale based Driver Training Simulators. Stephen was responsible for conceptualizing, coding, and maintaining the simulations experienced in headset. We worked with a variety of companies building simulation based experiences, including HP, General Motors, Intel, Siggraph, CES, Werner, Trimet, the Salem Oregon police force, The University of Southern California's Project Bravemind, the US Air Force, and Ferrari.
         </p>
     </div>
 
     <div class="container-fluid">
-        <h2>Who we work with</h2>
-        <p>
+        <h2 class="text-center">Who we work with</h2>
+        <p class="text-center">
             Nauman Designs works with a diverse range of clients from science museums, theme parks, NGOs, government agencies, startups and fortune 500 companies.
         </p>
     </div>
 
     <div class="container-fluid" id="container-white">
-
+        <h2 class="text-center">Who we are</h2>
+        <h3>Stephen Nauman</h3>
+        <p>
+            Stephen Nauman is a software developer
+        </p>
     </div>
 
     <footer>
         <div class="container-fluid">
             ©Nauman Designs LLC<br>
+            stephen@naumandesigns.com<br>
             Portland, Oregon
         </div>
     </footer>
