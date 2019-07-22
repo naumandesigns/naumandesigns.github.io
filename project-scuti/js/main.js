@@ -88,7 +88,7 @@ function main() {
 
     {
         const objLoader = new THREE.OBJLoader();
-        objLoader.load('/meshes/booth/booth.obj',
+        objLoader.load('/project-scuti/meshes/booth/booth.obj',
             //'https://threejsfundamentals.org/threejs/resources/models/windmill/windmill.obj',
             function (object) {
                 //object.position.y -= 60;
